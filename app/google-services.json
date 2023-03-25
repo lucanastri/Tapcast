@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "950379948987",
+    "project_id": "tapcast-222",
+    "storage_bucket": "tapcast-222.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950379948987:android:c842a5eb3e30c38df7f29e",
+        "android_client_info": {
+          "package_name": "com.kizune.tapcast"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950379948987-an2vhmod2lkvjtiehb0bndfofptqch6j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kizune.tapcast",
+            "certificate_hash": "bcca5e8accab7276ed29cbde9d2bfdc785e70dce"
+          }
+        },
+        {
+          "client_id": "950379948987-1hi7sq20gqidsh0t219lmmh3ph5uhjo3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5mdTj6LILpwJrItkpQTtf7Pre-egNjCo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950379948987-1hi7sq20gqidsh0t219lmmh3ph5uhjo3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

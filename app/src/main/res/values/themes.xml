@@ -1,0 +1,134 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Tapcast" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:windowBackground">@color/ic_launcher_background</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="android:navigationBarColor">@color/ic_launcher_background</item>
+        <item name="android:windowLightNavigationBar" tools:ignore="NewApi">false</item>
+        <item name="android:statusBarColor">@color/ic_launcher_background</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">false</item>
+        <item name="dialogCornerRadius">@dimen/radius_medium</item>
+        <item name="colorPrimary">@color/md_theme_light_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_light_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_light_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/md_theme_light_secondary</item>
+        <item name="colorOnSecondary">@color/md_theme_light_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/md_theme_light_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_light_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/md_theme_light_tertiary</item>
+        <item name="colorOnTertiary">@color/md_theme_light_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/md_theme_light_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/md_theme_light_onTertiaryContainer</item>
+        <item name="colorError">@color/md_theme_light_error</item>
+        <item name="colorOnError">@color/md_theme_light_onError</item>
+        <item name="colorErrorContainer">@color/md_theme_light_errorContainer</item>
+        <item name="colorOnErrorContainer">@color/md_theme_light_onErrorContainer</item>
+        <item name="colorOutline">@color/md_theme_light_outline</item>
+        <item name="android:colorBackground">@color/md_theme_light_background</item>
+        <item name="colorOnBackground">@color/md_theme_light_onBackground</item>
+        <item name="colorSurface">@color/md_theme_light_surface</item>
+        <item name="colorOnSurface">@color/md_theme_light_onSurface</item>
+        <item name="colorSurfaceVariant">@color/md_theme_light_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/md_theme_light_onSurfaceVariant</item>
+    </style>
+
+    <style name="Theme.Tapcast.Splash" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="android:navigationBarColor">@color/ic_launcher_background</item>
+        <item name="android:windowLightNavigationBar" tools:ignore="NewApi">false</item>
+        <item name="android:statusBarColor">@color/ic_launcher_background</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">false</item>
+    </style>
+
+    <!-- Material Design 3 styles -->
+    <!-- Typography -->
+    <style name="HeadlineMedium">
+        <item name="fontFamily">@font/rubik_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">32sp</item>
+        <item name="lineHeight">37.9sp</item>
+        <item name="android:letterSpacing">0.375</item>
+    </style>
+
+    <style name="TitleMedium">
+        <item name="fontFamily">@font/rubik_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">23sp</item>
+        <item name="lineHeight">27.3sp</item>
+        <item name="android:letterSpacing">0.022</item>
+    </style>
+
+    <style name="TitleSmall">
+        <item name="fontFamily">@font/rubik_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="lineHeight">23.7sp</item>
+        <item name="android:letterSpacing">0.025</item>
+    </style>
+
+    <style name="BodyLarge">
+        <item name="fontFamily">@font/rubik_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="textAllCaps">true</item>
+        <item name="lineHeight">21.3sp</item>
+        <item name="android:letterSpacing">0.500</item>
+    </style>
+
+    <style name="BodyMedium">
+        <item name="fontFamily">@font/rubik_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="lineHeight">19sp</item>
+        <item name="android:letterSpacing">0.026</item>
+    </style>
+
+    <style name="BodySmall">
+        <item name="fontFamily">@font/rubik_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="lineHeight">16.6sp</item>
+        <item name="android:letterSpacing">0.036</item>
+    </style>
+
+    <style name="LabelLarge">
+        <item name="fontFamily">@font/rubik_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">13sp</item>
+        <item name="lineHeight">15.4sp</item>
+        <item name="android:letterSpacing">0.038</item>
+    </style>
+
+    <!-- Shapes -->
+    <style name="None" parent="ShapeAppearance.Material3.Corner.None">
+        <item name="cornerSize">0dp</item>
+    </style>
+
+    <style name="ExtraSmall" parent="ShapeAppearance.Material3.Corner.ExtraSmall">
+        <item name="cornerSize">4dp</item>
+    </style>
+
+    <style name="Small" parent="ShapeAppearance.Material3.Corner.Small">
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="Medium" parent="ShapeAppearance.Material3.Corner.Medium">
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="Large" parent="ShapeAppearance.Material3.Corner.Large">
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="ExtraLarge" parent="ShapeAppearance.Material3.Corner.ExtraLarge">
+        <item name="cornerSize">28dp</item>
+    </style>
+
+    <style name="Full" parent="ShapeAppearance.Material3.Corner.Full">
+        <item name="cornerSize">100%</item>
+    </style>
+
+</resources>
