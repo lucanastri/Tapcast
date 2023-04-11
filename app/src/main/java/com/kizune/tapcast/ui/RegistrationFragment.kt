@@ -34,7 +34,6 @@ import com.kizune.tapcast.R
 import com.kizune.tapcast.animation.fadeIn
 import com.kizune.tapcast.animation.fadeOut
 import com.kizune.tapcast.databinding.FragmentRegistrationBinding
-import com.kizune.tapcast.utils.findNavControllerSafe
 import com.kizune.tapcast.viewmodel.FirebaseViewModel
 import com.kizune.tapcast.viewmodel.ProfileViewModel
 import kotlinx.coroutines.launch
@@ -92,7 +91,7 @@ class RegistrationFragment : Fragment() {
                 if (login) {
                     val action =
                         RegistrationFragmentDirections.actionRegistrationFragmentToDashboardFragment()
-                    findNavControllerSafe()?.navigate(action)
+                    findNavController().navigate(action)
                     firebaseViewModel.setLoginUser(false)
                 }
             }

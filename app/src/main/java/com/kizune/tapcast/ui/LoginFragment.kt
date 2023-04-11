@@ -28,7 +28,6 @@ import com.kizune.tapcast.R
 import com.kizune.tapcast.animation.fadeIn
 import com.kizune.tapcast.animation.fadeOut
 import com.kizune.tapcast.databinding.FragmentLoginBinding
-import com.kizune.tapcast.utils.findNavControllerSafe
 import com.kizune.tapcast.viewmodel.FirebaseViewModel
 import com.kizune.tapcast.viewmodel.ProfileViewModel
 import kotlinx.coroutines.launch
@@ -93,9 +92,10 @@ class LoginFragment : Fragment() {
         viewLifecycleOwner.lifecycleScope.launch {
             firebaseViewModel.loginUser.collect { login ->
                 if(login) {
+                    Log.d("MyTag", (login).toString())
                     val action =
                         LoginFragmentDirections.actionLoginFragmentToDashboardFragment()
-                    findNavControllerSafe()?.navigate(action)
+                    findNavController().navigate(action)
                     firebaseViewModel.setLoginUser(false)
                 }
             }

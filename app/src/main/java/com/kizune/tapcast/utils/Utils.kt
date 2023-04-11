@@ -105,12 +105,3 @@ fun displayGreeting(context: Context, username: String): String =
     }
 
 
-fun Fragment.findNavControllerSafe(): NavController? {
-    return if(isAdded) {
-        findNavController()
-    } else {
-        null
-    }
-}
-
-
